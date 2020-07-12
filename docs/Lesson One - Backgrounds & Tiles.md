@@ -13,7 +13,7 @@ What was covered:
 The goal we want to achieve is this:
  
  <h1 align="center">
-  <img alt="Canvas Coordinate System" src="https://github.com/quixote15/Javascript-Super-Mario-Game/blob/master/docs/images/step01-goal.png" width="120px" />
+  <img alt="Canvas Coordinate System" src="https://github.com/quixote15/Javascript-Super-Mario-Game/blob/master/docs/images/step01-goal.png" width="300px" />
 </h1>
 
 # Steps
@@ -72,7 +72,7 @@ The main idea here is to get the Super Mario fancy tiles set template image and 
 Once we have the tiles image:
 
 <h1 align="center">
-  <img alt="Canvas Coordinate System" src="https://github.com/quixote15/Javascript-Super-Mario-Game/blob/master/docs/images/tiles.png" width="120px" />
+  <img alt="Canvas Coordinate System" src="https://github.com/quixote15/Javascript-Super-Mario-Game/blob/master/docs/images/tiles.png" width="300px" />
 </h1>
 
 We can now kind of programmatically cut off the pieces we want and then draw them wherever we like.
@@ -113,13 +113,13 @@ loadImage('/img/tiles.png').then(image => {
 ```
 
 <h1 align="center">
-  <img alt="Canvas Coordinate System" src="https://github.com/quixote15/Javascript-Super-Mario-Game/blob/master/docs/images/canvas-coords.png" width="120px" />
+  <img alt="Canvas Coordinate System" src="https://github.com/quixote15/Javascript-Super-Mario-Game/blob/master/docs/images/canvas-coords.png" width="300px" />
 </h1>
 
 The strategy is to think of an image as an matrix-like data structure and knowing the canvas coordenate system the result of the `drawImage` function is: 
 
 <h1 align="center">
-  <img alt="Canvas Coordinate System" src="https://github.com/quixote15/Javascript-Super-Mario-Game/blob/master/docs/images/drawImage-result.png" width="120px" />
+  <img alt="Canvas Coordinate System" src="https://github.com/quixote15/Javascript-Super-Mario-Game/blob/master/docs/images/drawImage-result.png" width="300px" />
 </h1>
 
 With this concept in mind we can draw anything, the code for doing this should look clearer to you now!!!
